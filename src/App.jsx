@@ -3,18 +3,18 @@ import { useNavigate, Routes, Route } from "react-router-dom";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import Info from "./components/info/info";
-import Project from "./components/project/project";
-import Contact from "./components/contact/contact";
+import Info from "./components/info/Info";
+// import Project from "./components/project/Project";
+// import Contact from "./components/contact/Contact";
 
-function App() {
+const App = () => {
   return (
     <>
-      <Info></Info>
-      <Project></Project>
-      <Contact></Contact>
+      <Info />
+      {/* <Project />
+      <Contact /> */}
     </>
   );
-}
+};
 
 export default App;
