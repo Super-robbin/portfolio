@@ -5,7 +5,7 @@ import instagram  from '../../images/Instagram.svg';
 
 const Info = () => {
   return (
-    <div>
+    <div className="container-info">
       <header className="header">
         <div>
           <p className="header-name">Roberto Quadraccia</p>
@@ -29,12 +29,12 @@ const Info = () => {
       <main className="main">
         <div className="name-section">
           <p className="name-section-above">
-            <span>-</span>
+            <span>- </span>
             my name is
           </p>
           <h1 className="name-section-title">
             Roberto
-            <span className="name-section-title-span">Quadraccia</span>
+            <span className="name-section-title-span"> Quadraccia</span>
           </h1>
           <p className="name-section-description">
             Creative full-stack developer with 1 year of experience. Proficient

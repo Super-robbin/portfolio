@@ -1,9 +1,14 @@
+.container-info {
+    border-bottom: 2px #000 solid;
+}
+
 .header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    border-bottom: 2px #000 solid;
 }
 
 /* .header {
@@ -31,8 +36,9 @@
 
 .btn-resume {
     width: fit-content;
-    justify-self: center;
-    border-radius: 25%;
+    height: 35px;
+    align-self: center;
+    border-radius: 5px;
 }
 
 .main {
