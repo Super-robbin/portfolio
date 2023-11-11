@@ -1,18 +1,24 @@
-/* .header {
+.header {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-} */
-
-.header {
-    display: grid;
-    grid-template-columns: 2fr 2fr 1fr;
+    padding-bottom: 25px;
 }
+
+/* .header {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+} */
 
 .header-name {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 30px;
 }
 
 .nav-bar-list {
@@ -28,4 +34,10 @@
 .btn-resume {
     width: fit-content;
     justify-self: center;
+    border-radius: 25%;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 40% 60%;
 }
