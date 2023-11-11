@@ -1,9 +1,9 @@
 .header {
-    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 25px;
+    align-items: center;
+    padding: 10px;
 }
 
 /* .header {
@@ -12,8 +12,6 @@
 } */
 
 .header-name {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
 }
 
 .nav-bar {
@@ -39,5 +37,27 @@
 
 .main {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 1fr 600px;
+    /* gap: 1.5rem; */
+    padding: 10px;
+}
+
+.name-section {
+    justify-self: center;
+    /* padding-left: 200px; */
+    align-self: center;
+}
+.main-photo-box {
+    background-image:  url(../images/profile.jpeg);
+    background-size: cover;
+    height: 600px;
+    margin: 100px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.social-list {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.3rem;
 }
