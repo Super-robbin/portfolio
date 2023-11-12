@@ -28,7 +28,7 @@ const Info = () => {
       </header>
       <main className="main">
         <div className="name-section">
-          <p className="name-section-above">
+          <p className="above-section">
             <span>- </span>
             my name is
           </p>
