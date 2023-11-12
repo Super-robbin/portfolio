@@ -30,7 +30,7 @@ const Info = () => {
         <div className="name-section">
           <p className="above-section">
             <span>- </span>
-            my name is
+            my name
           </p>
           <h1 className="name-section-title">
             Roberto
