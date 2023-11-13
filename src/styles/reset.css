@@ -47,9 +47,6 @@ ul {
   list-style: none;
 }
 
-img {
-  width: 100%;
-}
 /* Grouping content
    ========================================================================== */
 
@@ -153,6 +150,7 @@ sup {
 
 img {
   border-style: none;
+  width: 100%;
 }
 
 /* Forms
