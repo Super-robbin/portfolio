@@ -37,11 +37,9 @@ const About = () => {
       <p className="above-section">
         <span>- </span>tech stack
       </p>
-      <div className="stack-section">
-      
-      <i className="devicon-react-original-wordmark colored"></i>
-          
-      </div>
+      {/* <div className="stack-container"> */}
+      <i className="devicon-python-plain-wordmark colored"></i>
+      {/* </div> */}
     </div>
   );
 };

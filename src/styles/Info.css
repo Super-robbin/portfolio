@@ -8,6 +8,7 @@
     align-items: center;
     padding: 10px 75px;
     border-bottom: 2px #000 solid;
+    background-color: rgb(223, 218, 211);
 }
 
 /* .header {
@@ -41,7 +42,7 @@
     display: grid;
     grid-template-columns: 1fr 600px;
     /* gap: 1.5rem; */
-    padding: 10px;
+    padding: 75px 75pxpx;
 }
 
 .name-section {

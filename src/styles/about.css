@@ -1,12 +1,10 @@
-
-
 .about-container {
     display: flex;
     flex-direction: column;
-    height: 600px;
     gap: 1rem;
-    padding: 10px 75px;
+    padding: 75px 75px;
     border-bottom: 2px #000 solid;
+    background-color: rgb(223, 218, 211);
 }
 
 .about-section {
