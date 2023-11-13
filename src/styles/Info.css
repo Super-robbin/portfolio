@@ -4,7 +4,6 @@
 
 .header {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 10px 75px;
@@ -18,12 +17,12 @@
 
 .nav-bar {
     display: flex;
-    gap: 50px;
+    gap: 3rem;
 }
 
 .nav-bar-list {
     display: flex;
-    flex-direction: row;
+    gap: 1.5rem;
     list-style: none;
 }
 
@@ -50,6 +49,7 @@
     /* padding-left: 200px; */
     align-self: center;
 }
+
 .main-photo-box {
     background-image:  url(../images/profile.jpeg);
     background-size: cover;

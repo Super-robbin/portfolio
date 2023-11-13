@@ -1,7 +1,6 @@
 import linkedIn from "../../images/Linkedin.svg";
 import gitHub from "../../images/Github.svg";
-import instagram  from '../../images/Instagram.svg';
-
+import instagram from "../../images/Instagram.svg";
 
 const Info = () => {
   return (
@@ -12,6 +11,11 @@ const Info = () => {
         </div>
         <nav className="nav-bar">
           <ul className="nav-bar-list">
+            <li className="nav-bar-item">
+              <a className="nav-bar-link" href="#about">
+                About Me
+              </a>
+            </li>
             <li className="nav-bar-item">
               <a className="nav-bar-link" href="#project">
                 Projects
@@ -42,15 +46,18 @@ const Info = () => {
           </p>
           <ul className="social-list">
             <li className="social-item">
-              <a href="https://www.linkedin.com/in/roberto-quadraccia/"><img src={linkedIn} alt="linkedIn-pic"/>
+              <a href="https://www.linkedin.com/in/roberto-quadraccia/">
+                <img src={linkedIn} alt="linkedIn-pic" />
               </a>
             </li>
             <li className="social-item">
-              <a href="https://github.com/Super-robbin"><img src={gitHub} alt="git-pic"/>
+              <a href="https://github.com/Super-robbin">
+                <img src={gitHub} alt="git-pic" />
               </a>
             </li>
             <li className="social-item">
-              <a href="https://www.instagram.com/super_robbin/"><img src={instagram} alt="insta-pic"/>
+              <a href="https://www.instagram.com/super_robbin/">
+                <img src={instagram} alt="insta-pic" />
               </a>
             </li>
           </ul>

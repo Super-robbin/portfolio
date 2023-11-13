@@ -1,3 +1,4 @@
+import React from "react";
 import myPlace from "../../images/myPlace.jpg";
 import acebook from "../../images/acebook.jpg";
 import makersBnb from "../../images/makersBnb.jpg";
@@ -26,6 +27,8 @@ const Project = () => {
             <a
               type="button"
               href="https://myplace-acrry.onrender.com/"
+              target="_blank"
+              rel="noreferrer"
               className="site-button"
             >
               Site
@@ -33,6 +36,8 @@ const Project = () => {
             <a
               type="button"
               href="https://github.com/Super-robbin/MyPlace"
+              target="_blank"
+              rel="noreferrer"
               className="github-button"
             >
               <img src={gitHub} alt="git-pic" />
@@ -49,6 +54,8 @@ const Project = () => {
             <a
               type="button"
               href="https://acebook-team-earth.onrender.com/"
+              target="_blank"
+              rel="noreferrer"
               className="site-button"
             >
               Site
@@ -56,6 +63,8 @@ const Project = () => {
             <a
               type="button"
               href="https://github.com/Super-robbin/acebook-team-earth"
+              target="_blank"
+              rel="noreferrer"
               className="github-button"
             >
               <img src={gitHub} alt="git-pic" />
@@ -72,6 +81,8 @@ const Project = () => {
             <a
               type="button"
               href="https://github.com/Super-robbin/acebook-team-earth"
+              target="_blank"
+              rel="noreferrer"
               className="github-button"
             >
               <img src={gitHub} alt="git-pic" />
@@ -88,6 +99,8 @@ const Project = () => {
             <a
               type="button"
               href="https://weather-app-j4ac.onrender.com"
+              target="_blank"
+              rel="noreferrer"
               className="site-button"
             >
               Site
@@ -95,6 +108,8 @@ const Project = () => {
             <a
               type="button"
               href="https://github.com/Super-robbin/weather_app"
+              target="_blank"
+              rel="noreferrer"
               className="github-button"
             >
               <img src={gitHub} alt="git-pic" />
@@ -111,6 +126,8 @@ const Project = () => {
             <a
               type="button"
               href="https://github.com/Super-robbin/notes_app"
+              target="_blank"
+              rel="noreferrer"
               className="github-button"
             >
               <img src={gitHub} alt="git-pic" />
@@ -127,6 +144,8 @@ const Project = () => {
             <a
               type="button"
               href="https://github.com/Super-robbin/shop_manager_project_sql"
+              target="_blank"
+              rel="noreferrer"
               className="github-button"
             >
               <img src={gitHub} alt="git-pic" />

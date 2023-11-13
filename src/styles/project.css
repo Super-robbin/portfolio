@@ -1,5 +1,5 @@
 .section {
-    padding: 75px;
+    padding: 25px 75px;
 }
 
 .projects-container {
@@ -28,10 +28,6 @@ grid-template-columns: 1fr 1fr 1fr;
     padding: 0 50px;
 }
 
-img {
-    width: 100%;
-}
-
 .project-buttons {
     display: flex;
     /* gap: 1rem; */
@@ -47,18 +43,18 @@ img {
 
 a:link {
     background-color: transparent;
-    color: white;
+    color: #000;
     text-decoration: none;
 }
 
 a:visited {
     color: #000;
 }
+
 a:hover {
     color: #0000ff;
     border-color: #0000ff;
 }
-
 
 .site-button {
     align-self: center;
