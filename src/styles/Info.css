@@ -1,14 +1,14 @@
 .container-info {
-    border-bottom: 2px #000 solid;
+  border-bottom: 2px #000 solid;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 75px;
-    border-bottom: 2px #000 solid;
-    background-color: rgb(223, 218, 211);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 75px;
+  border-bottom: 2px #000 solid;
+  background-color: rgb(223, 218, 211);
 }
 
 /* .header {
@@ -17,51 +17,51 @@
 } */
 
 .nav-bar {
-    display: flex;
-    gap: 3rem;
+  display: flex;
+  gap: 3rem;
 }
 
 .nav-bar-list {
-    display: flex;
-    gap: 1.5rem;
-    list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
 }
 
 .nav-bar-list > li {
-    padding: 5px;
+  padding: 5px;
 }
 
 .btn-resume {
-    width: fit-content;
-    height: 35px;
-    align-self: center;
-    border-radius: 5px;
+  width: fit-content;
+  height: 35px;
+  align-self: center;
+  border-radius: 5px;
 }
 
 .main {
-    display: grid;
-    grid-template-columns: 1fr 600px;
-    /* gap: 1.5rem; */
-    padding: 75px 75pxpx;
+  display: grid;
+  grid-template-columns: 1fr 600px;
+  /* gap: 1.5rem; */
+  padding: 75px 75pxpx;
 }
 
 .name-section {
-    justify-self: center;
-    /* padding-left: 200px; */
-    align-self: center;
+  justify-self: center;
+  /* padding-left: 200px; */
+  align-self: center;
 }
 
 .main-photo-box {
-    background-image:  url(../images/profile.jpeg);
-    background-size: cover;
-    height: 600px;
-    margin: 100px;
-    border: 1px solid #000;
-    border-radius: 10px;
+  background-image: url(../images/profile.jpeg);
+  background-size: cover;
+  height: 600px;
+  margin: 100px;
+  border: 1px solid #000;
+  border-radius: 10px;
 }
 
 .social-list {
-    display: flex;
-    justify-content: flex-start;
-    gap: 1.3rem;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.3rem;
 }

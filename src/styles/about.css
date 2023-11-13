@@ -13,4 +13,17 @@
 
 .stack-container {
     display: flex;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px;
+}
+
+.stack-container img {
+    padding: 10px;
+    width: 60px;
+}
+
+i {
+    font-size: 3.5rem;
 }

@@ -1,63 +1,64 @@
 .section {
-    padding: 75px 75px;
+  padding: 75px 75px;
+  border-bottom: 2px #000 solid;
 }
 
 .projects-container {
-display: grid;
-gap: 5rem;
-grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .project-card {
-    display: flex;
-    flex-direction: column;
-    height: 600px;
-    /* gap: 1rem; */
-    /* margin: 100px; */
-    border: 2px solid #000;
-    border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  /* gap: 1rem; */
+  /* margin: 100px; */
+  border: 2px solid #000;
+  border-radius: 10px;
 }
 
 .project-name {
-    text-align: center;
-    padding-top: 10px;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .project-description {
-    text-align: center;
-    padding: 0 50px;
+  text-align: center;
+  padding: 0 50px;
 }
 
 .project-buttons {
-    display: flex;
-    /* gap: 1rem; */
-    padding: 1rem;
-    justify-content: space-around;
+  display: flex;
+  /* gap: 1rem; */
+  padding: 1rem;
+  justify-content: space-around;
 }
 
 .project-buttons > a {
-    padding: 10px 30px;
-    border: 2px #000 solid;
-    border-radius: 5px;
+  padding: 10px 30px;
+  border: 2px #000 solid;
+  border-radius: 5px;
 }
 
 a:link {
-    background-color: transparent;
-    color: #000;
-    text-decoration: none;
+  background-color: transparent;
+  color: #000;
+  text-decoration: none;
 }
 
 a:visited {
-    color: #000;
+  color: #000;
 }
 
 a:hover {
-    color: #0000ff;
-    border-color: #0000ff;
+  color: #0000ff;
+  border-color: #0000ff;
 }
 
 .site-button {
-    align-self: center;
+  align-self: center;
 }
 
 .github-button {
