@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    padding: 75px 75px;
+    padding: 25px 75px 75px 75px;
     border-bottom: 2px #000 solid;
     background-color: rgb(238, 233, 227);
 }
@@ -13,10 +13,11 @@
 
 .stack-container {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     gap: 1rem;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px 5px;
+    box-shadow: 2px 5px 7px 2px;
 }
 
 .stack-container img {

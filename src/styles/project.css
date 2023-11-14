@@ -1,6 +1,10 @@
 .section {
-  padding: 75px 75px;
+  padding: 25px 75px 75px 75px;
   border-bottom: 2px #000 solid;
+}
+
+.title-section {
+  padding-bottom: 30px;
 }
 
 .projects-container {
@@ -17,6 +21,7 @@
   /* margin: 100px; */
   border: 2px solid #000;
   border-radius: 10px;
+  box-shadow: 3px 5px 7px 1px lightgray;
 }
 
 .project-name {
@@ -32,7 +37,7 @@
 .project-buttons {
   display: flex;
   /* gap: 1rem; */
-  padding: 1rem;
+  padding: 20px;
   justify-content: space-around;
 }
 
