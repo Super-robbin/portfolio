@@ -1,5 +1,3 @@
-
-
 .above-section-contact {
     margin: 0;
     padding: 25px 75px 0 75px;
@@ -9,8 +7,8 @@
 
 .contact-container {
     display: grid;
-    /* gap: 1rem; */
-    grid-template-columns: 2fr 1fr;
+    gap: 7rem;
+    grid-template-columns: 1fr 1fr;
     padding: 25px 75px 75px 75px;
     /* height: 300px; */
     background-color: rgb(238, 233, 227);
@@ -22,7 +20,7 @@
     gap: 1rem;
     padding: 10px;
     justify-content: center;
-    align-items: center;
+    align-items: end;
 }
 
 .form-input {
@@ -64,7 +62,7 @@
 
 #img-email,
 #img-phone {
-    background-color: azure;
+    background-color: #f0ffff;
     width: 30px;
     height: 30px;
     padding: 10px;
