@@ -1,10 +1,17 @@
-.contact-container {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: 1fr 1fr;
+.above-section-contact {
+    margin: 0;
     padding: 10px 75px;
     /* height: 300px; */
-    background-color: rgb(223, 218, 211);
+    background-color: rgb(238, 233, 227);  
+}
+
+.contact-container {
+    display: grid;
+    /* gap: 1rem; */
+    grid-template-columns: 2fr 1fr;
+    padding: 10px 75px;
+    /* height: 300px; */
+    background-color: rgb(238, 233, 227);
 }
 
 .contact-form {
@@ -18,11 +25,58 @@
 
 .form-input {
     padding: 10px;
-    border: 2px #000 solid;
+    border: 0;
     border-radius: 10px;
     width: 400px;
 }
 
 #message {
     height: 200px;
+}
+
+.btn-message {
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    width: 425px;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+}
+.contact-email,
+.contact-number {
+    display: flex;
+    gap: 2rem
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1rem
+}
+
+#img-email,
+#img-phone {
+    background-color: azure;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+    align-self: center;
+    
+}
+
+#email,
+#phone {
+    margin: 0
+}
+
+label {
+    font-size: 20px;
 }

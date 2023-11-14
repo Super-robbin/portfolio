@@ -8,7 +8,7 @@
   align-items: center;
   padding: 10px 75px;
   border-bottom: 2px #000 solid;
-  background-color: rgb(223, 218, 211);
+  background-color: rgb(238, 233, 227);
 }
 
 /* .header {
@@ -36,6 +36,7 @@
   height: 35px;
   align-self: center;
   border-radius: 5px;
+  border: 1px #000 solid
 }
 
 .main {
