@@ -2,7 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 75px;
+  font-size: 1.3rem;
+  padding: 5px 75px;
   background-color: rgb(238, 233, 227);
 }
 
@@ -25,7 +26,7 @@
   width: fit-content;
   height: 35px;
   align-self: center;
-  border-radius: 5px;
+  border-radius: 8px;
   border: 1px #000 solid
 }
 
@@ -43,6 +44,10 @@
   }
 }
 
+.dash {
+  font-size: 2rem;
+}
+
 .name-section {
   justify-self: center;
   /* padding-left: 200px; */
@@ -50,17 +55,23 @@
 }
 
 .above-section {
+  display: flex;
+  align-items: center;
   font-size: 1rem;
+  font-weight: 700;
   letter-spacing: 1rem;
   text-transform: uppercase;
 }
 
 .name-section-title {
-  padding: 10px 0;
+  /* padding: 10px 0; */
+  font-size: 3rem;
+  font-weight: 400;
 }
 
 .name-section-description {
   padding: 10px 0;
+  font-size: 1.3rem;
 }
 
 .main-photo-box {

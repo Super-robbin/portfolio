@@ -1,16 +1,13 @@
-.above-section-contact {
-    margin: 0;
-    padding: 25px 75px 0 75px;
-    /* height: 300px; */
-    background-color: rgb(238, 233, 227);  
+.contact {
+    padding: 25px 75px 75px 75px;
+    background-color: rgb(238, 233, 227); 
 }
 
 .contact-container {
     display: grid;
     gap: 7rem;
     grid-template-columns: 1fr 1fr;
-    padding: 25px 75px 75px 75px;
-    /* height: 300px; */
+    padding: 75px 75px 75px 75px;
     background-color: rgb(238, 233, 227);
 }
 
@@ -47,6 +44,7 @@
     justify-content: center;
     gap: 3rem;
 }
+
 .contact-email,
 .contact-number {
     display: flex;

@@ -1,9 +1,11 @@
 .section {
-  padding: 25px 75px 75px 75px;
+  padding: 75px;
 }
 
 .title-section {
-  padding-bottom: 30px;
+  padding-bottom: 25px;
+  font-size: 2.5rem;
+  font-weight: 400;
 }
 
 .projects-container {
@@ -15,9 +17,7 @@
 .project-card {
   display: flex;
   flex-direction: column;
-  height: 600px;
-  /* gap: 1rem; */
-  /* margin: 100px; */
+  height: 650px;
   border: 2px solid #000;
   border-radius: 10px;
   box-shadow: 3px 5px 7px 1px lightgray;
@@ -26,26 +26,29 @@
 .project-name {
   text-align: center;
   padding-top: 10px;
+  font-size: 1.5rem;
 }
 
 .project-description {
   text-align: center;
+  line-height: 30px;
+  font-size: 1.2 rem;
   padding: 0 50px;
 }
 
 .project-buttons {
   display: flex;
   padding: 20px;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .project-buttons > a {
   display: grid;
   place-items: center;
-  font-size: 25px;
+  font-size: 1.5rem;
   padding: 10px 30px;
-  width: 100px;
-  height: 50px;
+  width: 140px;
+  height: 40px;
   border: 1px #000 solid;
   border-radius: 10px;
 }

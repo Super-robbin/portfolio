@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div className="about-container">
       <p className="above-section">
-        <span>- </span>a bit about me
+        <span className="dash">-</span>a bit about me
       </p>
       <p className="about-section">
         An energetic, dedicated, and highly focused individual with a solid
@@ -35,7 +35,7 @@ const About = () => {
         a collaborative tech environment.
       </p>
       <p className="above-section">
-        <span>- </span>tech stack
+        <span className="dash">-</span>tech stack
       </p>
       <div className="stack-container">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />

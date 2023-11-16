@@ -33,7 +33,7 @@ const Info = () => {
       <main className="main">
         <div className="name-section">
           <p className="above-section">
-            <span>- </span>
+            <span className="dash">-</span>
             my name
           </p>
           <h1 className="name-section-title">
