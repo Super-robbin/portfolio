@@ -5,10 +5,10 @@ import logo from "../../images/logo-r.png";
 
 const Info = () => {
   return (
-    <div className="container-info" >
+    <div className="container-info">
       <header className="header">
         <div className="header-logo-name">
-          <img className="logo" src={ logo } alt="logo" id="logo"/>
+          <img className="logo" src={logo} alt="logo" id="logo" />
           <p className="header-name">Roberto</p>
         </div>
         <nav className="nav-bar">
@@ -29,7 +29,10 @@ const Info = () => {
               </a>
             </li>
           </ul>
-          <button className="btn-resume">Resume</button>
+          <a href="../../../public/CV.pdf" target="_blank"
+              rel="noreferrer">
+            <button className="btn-resume">Resume</button>
+          </a>
         </nav>
       </header>
       <main className="main">
@@ -48,17 +51,20 @@ const Info = () => {
           </p>
           <ul className="social-list">
             <li className="social-item">
-              <a href="https://www.linkedin.com/in/roberto-quadraccia/">
+              <a href="https://www.linkedin.com/in/roberto-quadraccia/" target="_blank"
+              rel="noreferrer">
                 <img src={linkedIn} alt="linkedIn-pic" />
               </a>
             </li>
             <li className="social-item">
-              <a href="https://github.com/Super-robbin">
+              <a href="https://github.com/Super-robbin" target="_blank"
+              rel="noreferrer">
                 <img src={gitHub} alt="git-pic" />
               </a>
             </li>
             <li className="social-item">
-              <a href="https://www.instagram.com/super_robbin/">
+              <a href="https://www.instagram.com/super_robbin/" target="_blank"
+              rel="noreferrer">
                 <img src={instagram} alt="insta-pic" />
               </a>
             </li>
