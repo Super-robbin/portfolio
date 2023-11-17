@@ -1,4 +1,4 @@
-import gitHub from "../../images/gitHub.svg";
+import { BsGithub } from "react-icons/bs";
 
 const Card = ({ card }) => {
     return (
@@ -25,7 +25,7 @@ const Card = ({ card }) => {
               rel="noreferrer"
               className="github-button"
             >
-              <img src={gitHub} alt="git-pic" />
+              < BsGithub size={"2rem"}/>
             </a>
           </div>
           </div>
