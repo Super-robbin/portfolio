@@ -1,13 +1,15 @@
 import linkedIn from "../../images/Linkedin.svg";
 import gitHub from "../../images/Github.svg";
 import instagram from "../../images/Instagram.svg";
+import logo from "../../images/logo-r.png";
 
 const Info = () => {
   return (
     <div className="container-info">
       <header className="header">
-        <div>
-          <p className="header-name">Roberto Quadraccia</p>
+        <div className="header-logo-name">
+          <img className="logo" src={ logo } alt="logo"/>
+          <p className="header-name">Roberto</p>
         </div>
         <nav className="nav-bar">
           <ul className="nav-bar-list">
@@ -34,7 +36,7 @@ const Info = () => {
         <div className="name-section">
           <p className="above-section">
             <span className="dash">-</span>
-            my name
+            my name is
           </p>
           <h1 className="name-section-title">
             Roberto
