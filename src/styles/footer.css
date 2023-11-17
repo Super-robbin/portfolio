@@ -8,19 +8,19 @@
 #social-list {
     justify-content: space-around;
     /* padding: 20px; */
-    width: 20%;
+    width: 15%;
 }
 
 #social-item {
-    background-color: #f0ffff;
-    width: 30px;
-    height: 30px;
+    background-color: #e2dbf7;
+    width: 25px;
+    height: 25px;
     padding: 10px;
     border-radius: 50%;
 }
 
 #social-item:hover {
-    box-shadow: 1px 3px 5px 1px;
+    box-shadow: 0 1px 6px 0 #20212447
 }
 
 

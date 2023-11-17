@@ -100,7 +100,6 @@
 .social-item:hover {
   width: 25px;
   height: 25px;
-  /* padding: 10px; */
   border-radius: 50%;
   box-shadow: 0 1px 6px 0 #20212447
 }
