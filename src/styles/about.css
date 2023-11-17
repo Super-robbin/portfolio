@@ -6,6 +6,10 @@
     background-color: rgb(238, 233, 227);
 }
 
+.about-container > .above-section {
+    font-size: 1.3rem;
+}
+
 .about-section {
     line-height: 30px;
 }
