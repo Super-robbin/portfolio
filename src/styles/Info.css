@@ -4,7 +4,6 @@
   align-items: center;
   font-size: 1.3rem;
   padding: 0 75px;
-  /* background-color: rgb(238, 233, 227); */
   background-color: #f2f2f2;
 }
 
@@ -56,8 +55,7 @@
 .main {
   display: grid;
   grid-template-columns: 1fr 600px;
-  /* gap: 1.5rem; */
-  padding: 75px 75pxpx;
+  padding: 0 75px;
 }
 
 @media screen and (max-width: 1279px) {
@@ -99,9 +97,9 @@
 }
 
 .main-photo-box {
-  background-image: url(../images/profile-2.jpeg);
+  background-image: url(../images/profile-2.png);
   background-size: cover;
-  height: 600px;
+  height: 500px;
   margin: 100px;
   border: 1px solid #000;
   border-radius: 25px;

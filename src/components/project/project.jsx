@@ -3,7 +3,7 @@ import Card from "../card/Card";
 
 const Project = () => {
   return (
-    <div className="section" id="projects">
+    <div className="section" id="project">
       <p className="above-section">
         <span className="dash">-</span>
         projects

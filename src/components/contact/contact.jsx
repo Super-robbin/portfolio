@@ -3,7 +3,7 @@ import phone from "../../images/phone_light.svg";
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <p className="above-section">
         <span className="dash">-</span>contact me
       </p>

@@ -5,7 +5,7 @@ import logo from "../../images/logo-r.png";
 
 const Info = () => {
   return (
-    <div className="container-info">
+    <div className="container-info" >
       <header className="header">
         <div className="header-logo-name">
           <img className="logo" src={ logo } alt="logo" id="logo"/>
