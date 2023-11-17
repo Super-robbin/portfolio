@@ -20,7 +20,8 @@
   height: 650px;
   border: 2px solid #000;
   border-radius: 10px;
-  box-shadow: 3px 5px 7px 1px lightgray;
+  /* box-shadow: 3px 5px 7px 1px lightgray; */
+  box-shadow: 0 1px 6px 0 #20212447
 }
 
 .project-name {
@@ -53,29 +54,19 @@
   border-radius: 10px;
 }
 
+.project-buttons > a:hover {
+  box-shadow: 0 1px 6px 0 #20212447
+}
+
 .project-buttons img {
   width: auto;
   height: 60%;
-}
-
-a:link {
-  background-color: transparent;
-  color: #000;
-  text-decoration: none;
 }
 
 a:visited {
   color: #000;
 }
 
-a:hover {
-  color: #0000ff;
-  border-color: #0000ff;
-}
-
 .site-button {
   align-self: center;
-}
-
-.github-button {
 }

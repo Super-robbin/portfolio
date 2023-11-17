@@ -66,7 +66,6 @@
 }
 
 .name-section-title {
-  /* padding: 10px 0; */
   font-size: 3rem;
   font-weight: 700;
 }
@@ -74,6 +73,7 @@
 .name-section-title-span {
   color: #8b68f2
 }
+
 .name-section-description {
   padding: 10px 0;
   font-size: 1.3rem;

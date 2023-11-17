@@ -12,13 +12,13 @@ const Contact = () => {
           <input
             className="form-input"
             placeholder="Name"
-            id="name"
+            id="-input-name"
             type="text"
           />
           <input
             className="form-input"
             placeholder="Email"
-            id="email"
+            id="input-email"
             type="text"
           />
           <textarea
