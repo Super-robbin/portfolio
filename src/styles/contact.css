@@ -8,23 +8,25 @@
     display: grid;
     gap: 7rem;
     grid-template-columns: 1fr 1fr;
+    /* justify-items: center; */
     padding: 75px;
 }
 
 .contact-form {
     display: flex;
     flex-direction: column;
+    width: 450px;
     gap: 1rem;
     padding: 10px;
     justify-content: center;
-    align-items: end;
+    justify-self: end;
+    /* align-self: end; */
 }
 
 .form-input {
     padding: 10px;
     border: 0;
     border-radius: 10px;
-    width: 400px;
 }
 
 .form-input:hover {
@@ -50,7 +52,6 @@
     padding: 10px;
     border: 0;
     border-radius: 10px;
-    width: 425px;
 }
 
 .btn-message:hover {
@@ -91,7 +92,8 @@
 #email,
 #phone {
     margin: 0;
-    color: rgb(133, 124, 115)
+    color: #8c8c8c;
+    /* color: #808080 */
 }
 
 label {

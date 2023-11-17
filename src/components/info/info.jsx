@@ -8,7 +8,7 @@ const Info = () => {
     <div className="container-info">
       <header className="header">
         <div className="header-logo-name">
-          <img className="logo" src={ logo } alt="logo"/>
+          <img className="logo" src={ logo } alt="logo" id="logo"/>
           <p className="header-name">Roberto</p>
         </div>
         <nav className="nav-bar">
