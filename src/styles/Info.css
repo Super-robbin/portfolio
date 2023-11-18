@@ -43,8 +43,6 @@
   padding: 5px;
 }
 
-
-
 .btn-resume {
   background-color: #ffffff;
   width: fit-content;
@@ -55,12 +53,13 @@
 }
 
 .btn-resume:hover {
-  box-shadow: 0 1px 6px 0 #20212447
+  box-shadow: 0 1px 6px 0 #20212447;
 }
 
 .main {
   display: grid;
-  grid-template-columns: 1fr 600px;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
   padding: 0 75px;
 }
 
@@ -76,7 +75,6 @@
 }
 
 .name-section {
-  justify-self: center;
   align-self: center;
 }
 
@@ -102,9 +100,10 @@
   font-size: 1.3rem;
 }
 
-.main-photo-box {
-  background-image: url(../images/profile-2.png);
-  background-size: cover;
+.main-photo-box .profile-img {
+  /* background-image: url(../images/profile-2.png); */
+  /* object-position: cover; */
+  width: fit-content;
   height: 500px;
   margin: 100px;
   border: 1px solid #000;
@@ -114,14 +113,11 @@
 
 .social-list {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
   gap: 4rem;
   padding-top: 15px;
 }
 
 .social-item {
-  /* background-color: #e2dbf7; */
   width: 25px;
   height: 25px;
   padding: 10px;

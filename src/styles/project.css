@@ -50,7 +50,7 @@
   padding: 10px 30px;
   width: 140px;
   height: 40px;
-  border: 1px #000 solid;
+  border: 2px #000 solid;
   border-radius: 10px;
 }
 
@@ -58,16 +58,6 @@
   background-color: #000;
   color: #ffffff;
   box-shadow: 0 1px 6px 0 #20212447
-}
-
-.project-buttons img {
-  width: auto;
-  height: 60%;
-  color: #ffffff;
-}
-
-a:visited {
-  color: #000;
 }
 
 .site-button {

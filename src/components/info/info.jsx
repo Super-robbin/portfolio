@@ -2,6 +2,7 @@ import linkedIn from "../../images/Linkedin.svg";
 import gitHub from "../../images/Github.svg";
 import instagram from "../../images/Instagram.svg";
 import logo from "../../images/logo-r.png";
+import profile from "../../images/profile-2.png"
 
 const Info = () => {
   return (
@@ -70,7 +71,9 @@ const Info = () => {
             </li>
           </ul>
         </div>
-        <div className="main-photo-box"></div>
+        <div className="main-photo-box">
+          <img className="profile-img" src={profile} alt="profile-img"/>
+        </div>
       </main>
     </div>
   );
