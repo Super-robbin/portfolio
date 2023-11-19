@@ -1,101 +1,110 @@
 .contact {
-    padding: 25px 75px 75px 75px;
-    /* background-color: rgb(238, 233, 227);  */
-    background-color: #f2f2f2;
+  padding: 25px 75px 75px 75px;
+  background-color: #f2f2f2;
 }
 
 .contact-container {
-    display: grid;
-    gap: 7rem;
-    grid-template-columns: 1fr 1fr;
-    /* justify-items: center; */
-    padding: 75px;
+  display: grid;
+  gap: 7rem;
+  grid-template-columns: 1fr 1fr;
+  padding: 75px;
 }
 
+@media screen and (max-width: 1050px) {
+    .contact-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .contact-form {
+        max-width: auto;
+    }
+  }
+
 .contact-form {
-    display: flex;
-    flex-direction: column;
-    width: 450px;
-    gap: 1rem;
-    padding: 10px;
-    justify-content: center;
-    justify-self: end;
-    /* align-self: end; */
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  gap: 1rem;
+  padding: 10px;
+  justify-content: center;
+  justify-self: end;
+  flex-shrink: 1;
+  /* flex-basis: 400px; */
 }
 
 .form-input {
-    padding: 10px;
-    border: 0;
-    border-radius: 10px;
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
 }
 
 .form-input:hover {
-    box-shadow: 0 1px 6px 0 #20212447
+  box-shadow: 0 1px 6px 0 #20212447;
 }
 
 .form-input:focus {
-    outline: none;
+  outline: none;
 }
 
 #input-name,
 #input-email {
-    color: #000;
+  color: #000;
 }
 
 #message {
-    height: 200px;
+  height: 200px;
 }
 
 .btn-message {
-    background-color: #9c81e6;
-    color: #ffffff;
-    padding: 10px;
-    border: 0;
-    border-radius: 10px;
+  background-color: #9c81e6;
+  color: #ffffff;
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
 }
 
 .btn-message:hover {
-    box-shadow: 0 1px 6px 0 #20212447
+  box-shadow: 0 1px 6px 0 #20212447;
 }
 
 .contact-details {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
 }
 
 .contact-email,
 .contact-number {
-    display: flex;
-    gap: 2rem
+  display: flex;
+  gap: 2rem;
 }
 
 .contact-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 #img-email,
 #img-phone {
-    background-color: #e2dbf7;
-    width: 30px;
-    height: 30px;
-    padding: 15px;
-    align-items: center;
-    border-radius: 10px;
-    align-self: center;
-    
+  background-color: #e2dbf7;
+  width: 30px;
+  height: 30px;
+  padding: 15px;
+  align-items: center;
+  border-radius: 10px;
+  align-self: center;
 }
 
 #email,
 #phone {
-    margin: 0;
-    color: #8c8c8c;
-    /* color: #808080 */
+  margin: 0;
+  color: #8c8c8c;
+  /* color: #808080 */
 }
 
 label {
-    font-size: 20px;
+  font-size: 20px;
 }
