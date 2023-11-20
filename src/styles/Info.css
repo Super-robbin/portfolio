@@ -66,6 +66,14 @@
   .main {
     display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+  .main .name-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    text-align: center;
   }
 }
 
@@ -92,6 +100,12 @@
   }
   .btn-resume {
     margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main-photo-box .profile-img {
+    margin: 50px 0 !important;
   }
 }
 
@@ -127,11 +141,9 @@
 }
 
 .main-photo-box .profile-img {
-  /* background-image: url(../images/profile-2.png); */
-  /* object-position: cover; */
   width: fit-content;
   height: 450px;
-  margin: 100px;
+  margin: 100px 0;
   border: 1px solid #000;
   border-radius: 25px;
   box-shadow: 0 1px 6px 0 #20212447;
