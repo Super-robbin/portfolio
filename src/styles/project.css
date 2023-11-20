@@ -14,10 +14,54 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+@media screen and (max-width: 2000px) {
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .section {
+    padding: 60px;
+  }  
+  .projects-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .section .above-section {
+    justify-content: center;
+    font-size: 13px;
+  }
+  .section .title-section {
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .section .above-section {
+    font-size: 12px;
+  }
+  .section .title-section {
+    font-size: 27px;
+    justify-self: center;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .project-card .projects-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .project-card {
   display: flex;
   flex-direction: column;
-  height: 650px;
+  height: auto;
   border: 2px solid #000;
   border-radius: 10px;
   box-shadow: 0 1px 6px 0 #20212447;
@@ -68,7 +112,7 @@
 .project-buttons > a:hover {
   background-color: #000;
   color: #ffffff;
-  box-shadow: 0 1px 6px 0 #20212447
+  box-shadow: 0 1px 6px 0 #20212447;
 }
 
 .site-button {

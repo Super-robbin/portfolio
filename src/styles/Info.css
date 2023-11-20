@@ -75,6 +75,9 @@
     align-items: center;
     text-align: center;
   }
+  .main-photo-box .profile-img {
+    margin: 75px 0 !important;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -101,9 +104,21 @@
   .btn-resume {
     margin-bottom: 20px;
   }
+  .main-photo-box .profile-img {
+    margin: 50px 0 !important;
+  }
 }
 
 @media screen and (max-width: 500px) {
+  .name-section .above-section {
+    font-size: 12px;
+  }
+  .name-section .name-section-title {
+    font-size: 40px;
+  }
+  .name-section .name-section-description {
+    font-size: 1rem;
+  }
   .main-photo-box .profile-img {
     margin: 50px 0 !important;
   }

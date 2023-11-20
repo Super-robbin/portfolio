@@ -13,21 +13,38 @@
     flex-direction: column;
     align-items: center;
     padding: 50px;
-    gap: 1rem
-
+    gap: 1rem;
   }
   .stack-section {
     align-items: center;
   }
 }
 
+@media screen and (max-width: 800px) {
+  .about-container {
+    font-size: 13px;
+    padding: 40px;
+  }
+  .about-section {
+    line-height: 25px !important;
+  }
+}
+
 @media screen and (max-width: 500px) {
-  .about-container, .dash {
+  .about-container {
     font-size: 10px;
-    padding: 30px
+    padding: 30px;
   }
   .about-container .above-section {
     justify-content: center;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .about-section {
+    line-height: 20px !important;
+  }
+  .about-container .stack-section {
+    gap: 1rem;
   }
   .stack-section .stack-container {
     grid-template-columns: repeat(4, 50px);
