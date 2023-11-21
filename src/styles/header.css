@@ -77,12 +77,6 @@
     font-size: 30px;
     cursor: pointer;
   }
-  .header .nav-bar {
-    display: flex;
-    /* flex-direction: column; */
-    gap: 1.5rem;
-    align-items: center;
-  }
   .nav-bar .nav-bar-list {
     display: flex;
     flex-direction: column;
