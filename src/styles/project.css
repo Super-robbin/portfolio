@@ -24,6 +24,7 @@
 @media screen and (max-width: 800px) {
   .section {
     padding: 60px;
+    padding-top: 50px;
   }  
   .projects-container {
     display: grid;
@@ -37,6 +38,7 @@
     font-size: 30px;
     text-align: center;
     margin: 0;
+    padding-bottom: 40px;
   }
 }
 
@@ -52,9 +54,11 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .project-card .projects-buttons {
+  .project-card .project-buttons {
     display: flex;
     flex-direction: column;
+    gap: 1rem;
+    align-items: center;
   }
 }
 

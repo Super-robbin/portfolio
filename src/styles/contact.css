@@ -11,35 +11,84 @@
 }
 
 @media screen and (max-width: 1050px) {
-    .contact-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .contact-form {
-        max-width: auto;
-    }
+  .contact .above-section {
+    justify-content: center;
+    font-size: 14px;
   }
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding: 30px;
+  }
+  .contact-form {
+    max-width: auto;
+  }
+}
 
-  @media screen and (max-width: 800px) {
-    .contact-container .about {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
+@media screen and (max-width: 800px) {
+  .contact .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding: 0;
   }
+  .contact .above-section {
+    justify-content: center;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .contact {
+    padding: 25px 50px 25px 50px;
+  }
+  .contact .above-section {
+    justify-content: center;
+    font-size: 12px;
+  }
+  .contact .contact-form {
+    width: 300px;
+  }
+  .contact .contact-details {
+    gap: 1rem;
+  }
+  #message {
+    height: 150px !important;
+  }
+  .contact-email,
+  .contact-number {
+    font-size: 14px;
+    gap: 1.5rem !important;
+  }
+  .contact-email label,
+  .contact-number label {
+    font-size: 17px;
+  }
+  .contact-info {
+    justify-content: center !important;
+  }
+  .contact-details #img-email,
+  .contact-details #img-phone {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+    align-self: center;
+  }
+}
 
 .contact-form {
   display: flex;
   flex-direction: column;
-  /* max-width: 650px; */
-  width: 100%;
+  width: 450px;
   gap: 1rem;
   padding: 10px;
   justify-content: center;
   justify-self: end;
-  flex-shrink: 1;
-  /* flex-basis: 400px; */
 }
 
 .form-input {
@@ -54,11 +103,6 @@
 
 .form-input:focus {
   outline: none;
-}
-
-#input-name,
-#input-email {
-  color: #000;
 }
 
 #message {
@@ -111,7 +155,6 @@
 #phone {
   margin: 0;
   color: #8c8c8c;
-  /* color: #808080 */
 }
 
 label {
