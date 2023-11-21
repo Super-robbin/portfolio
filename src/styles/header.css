@@ -19,6 +19,10 @@
   border-radius: 50%;
 }
 
+.header .mobile-navigation {
+  display: none;
+}
+
 .nav-bar {
   display: flex;
   gap: 3rem;
@@ -57,32 +61,58 @@
 
 @media screen and (max-width: 800px) {
   .header {
+    padding: 0 50px !important;
+  }
+  .header .navigation {
+    display: none;
+  }
+  .header .mobile-navigation {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+  }
+  .mobile-navigation .hamburger-icon,
+  .mobile-navigation .close-icon{
+    position: absolute;
+    right: 6%;
+    font-size: 30px;
+    cursor: pointer;
   }
   .header .nav-bar {
     display: flex;
-    flex-direction: column;
-    gap: 0;
+    /* flex-direction: column; */
+    gap: 1.5rem;
     align-items: center;
   }
-  .nav-bar-list {
+  .nav-bar .nav-bar-list {
     display: flex;
     flex-direction: column;
-    gap: 1;
-    padding: 0;
+    position: absolute;
+    align-items: center;
+    gap: 0;
+    top: 50px;
+    right: 1.5%;
   }
   .nav-bar-list > li {
-    padding: 0%;
     text-align: center;
   }
-  .btn-resume {
-    margin-bottom: 20px;
+  .header .btn-resume {
+    border: none;
   }
 }
 
 @media screen and (max-width: 500px) {
   .header {
-    font-size: 17px;
+    font-size: 15px !important;
+    padding: 5px 20px !important;
+  }
+  .nav-bar-item .btn-resume {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header {
+    font-size: 13px !important;
+    padding: 5px 20px !important;
   }
 }
