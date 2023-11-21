@@ -74,6 +74,7 @@
     margin: 0;
     align-items: center;
     text-align: center;
+    padding-top: 50px
   }
   .main-photo-box .profile-img {
     margin: 75px 0 !important;
@@ -81,28 +82,11 @@
 }
 
 @media screen and (max-width: 800px) {
-  .header {
-    display: flex;
-    flex-direction: column;
+  .main {
+    padding: 0 60px 0;
   }
-  .nav-bar {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-    align-items: center;
-  }
-  .nav-bar-list {
-    display: flex;
-    flex-direction: column;
-    gap: 1;
-    padding: 0;
-  }
-  .nav-bar-list > li {
-    padding: 0%;
-    text-align: center;
-  }
-  .btn-resume {
-    margin-bottom: 20px;
+  .main .name-section {
+    padding-top: 40px;
   }
   .main-photo-box .profile-img {
     margin: 50px 0 !important;
@@ -112,14 +96,21 @@
 }
 
 @media screen and (max-width: 500px) {
+  .main {
+    padding: 0 50px 0;
+  }
+  .main .name-section {
+    padding-top: 30px;
+  }
   .name-section .above-section {
     font-size: 12px;
   }
   .name-section .name-section-title {
     font-size: 40px;
+    margin: 20px 0;
   }
   .name-section .name-section-description {
-    font-size: 1rem;
+    font-size: 16px;
   }
   .main-photo-box .profile-img {
     margin: 50px 0 !important;

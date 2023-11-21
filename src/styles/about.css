@@ -28,6 +28,9 @@
   .about-section {
     line-height: 25px !important;
   }
+  .about-container .stack-section {
+    gap: 1.3rem
+  }
 }
 
 @media screen and (max-width: 500px) {

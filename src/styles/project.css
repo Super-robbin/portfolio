@@ -43,6 +43,12 @@
 }
 
 @media screen and (max-width: 500px) {
+  #project {
+    padding: 30px 50px;
+  }
+  .projects-container {
+    gap: 2.5rem
+  }
   .section .above-section {
     font-size: 12px;
   }

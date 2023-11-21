@@ -1,0 +1,88 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+  padding: 0 75px;
+  background-color: #f2f2f2;
+}
+
+.header-logo-name {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  width: auto;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 3rem;
+}
+
+.nav-bar > a {
+  align-self: center;
+}
+
+.nav-bar-link:hover {
+  color: #9c81e6;
+}
+
+.nav-bar-list {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.nav-bar-list > li {
+  padding: 5px;
+}
+
+.btn-resume {
+  background-color: #ffffff;
+  width: fit-content;
+  height: 35px;
+  align-self: center;
+  border-radius: 8px;
+  border: 1px #000 solid;
+}
+
+.btn-resume:hover {
+  box-shadow: 0 1px 6px 0 #20212447;
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  .header .nav-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+  }
+  .nav-bar-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1;
+    padding: 0;
+  }
+  .nav-bar-list > li {
+    padding: 0%;
+    text-align: center;
+  }
+  .btn-resume {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    font-size: 17px;
+  }
+}
