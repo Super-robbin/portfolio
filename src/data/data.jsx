@@ -7,7 +7,7 @@ import shopManager from "../images/shopManager.jpg";
 
 const cards = [
   {
-    id: 1
+    id: 1,
     img: myPlace,
     name: "MyPlace",
     description:
