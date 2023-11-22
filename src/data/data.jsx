@@ -1,13 +1,13 @@
 import myPlace from "../images/myPlace.jpg";
 import acebook from "../images/acebook.jpg";
-import makersBnb from "../images/makersBnb.jpg";
+import makersBnb from "../images/MakersBnb-img.jpg";
 import weather from "../images/weather.jpg";
 import notesApp from "../images/notesApp.jpg";
 import shopManager from "../images/shopManager.jpg";
 
 const cards = [
   {
-    id: 1,
+    id: 1
     img: myPlace,
     name: "MyPlace",
     description:
