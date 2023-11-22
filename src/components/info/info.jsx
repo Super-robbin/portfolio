@@ -1,7 +1,6 @@
 import linkedIn from "../../images/Linkedin.svg";
 import gitHub from "../../images/Github.svg";
 import instagram from "../../images/Instagram.svg";
-import logo from "../../images/logo-r.png";
 import profile from "../../images/profile.jpg"
 
 const Info = () => {
