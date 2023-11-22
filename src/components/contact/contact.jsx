@@ -1,5 +1,6 @@
 import message from "../../images/message_light.svg";
 import phone from "../../images/phone_light.svg";
+import ContactForm from "./ContactForm"
 
 const Contact = () => {
   return (
@@ -8,11 +9,11 @@ const Contact = () => {
         <span className="dash">-</span>contact me
       </p>
       <div className="contact-container">
-        <form className="contact-form">
+        {/* <form className="contact-form">
           <input
             className="form-input"
             placeholder="Name"
-            id="-input-name"
+            id="input-name"
             type="text"
           />
           <input
@@ -28,7 +29,8 @@ const Contact = () => {
             type="text"
           />
           <button className="btn-message">Send Message</button>
-        </form>
+        </form> */}
+        <ContactForm />
         <div className="contact-details">
           <div className="contact-email">
             <img id="img-email" src={message} alt="message-icon" />
