@@ -9,27 +9,6 @@ const Contact = () => {
         <span className="dash">-</span>contact me
       </p>
       <div className="contact-container">
-        {/* <form className="contact-form">
-          <input
-            className="form-input"
-            placeholder="Name"
-            id="input-name"
-            type="text"
-          />
-          <input
-            className="form-input"
-            placeholder="Email"
-            id="input-email"
-            type="text"
-          />
-          <textarea
-            className="form-input"
-            placeholder="Message"
-            id="message"
-            type="text"
-          />
-          <button className="btn-message">Send Message</button>
-        </form> */}
         <ContactForm />
         <div className="contact-details">
           <div className="contact-email">
