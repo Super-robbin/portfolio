@@ -30,7 +30,7 @@ const NavLinks = (props) => {
         onClick={() => props.isMobile && props.closeMobileMenu()}
       >
         <a href="../../../public/CV.pdf" target="_blank" rel="noreferrer">
-          <button className="btn-resume">Resume</button>
+          <button className="btn-resume" id="btn-resume">Resume</button>
         </a>
       </li>
     </ul>

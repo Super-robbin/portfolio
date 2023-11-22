@@ -84,10 +84,20 @@
     align-items: center;
     gap: 0;
     top: 50px;
-    right: 1.5%;
+    /* right: 1.5%; */
+    width: 100%;
+    right: 0;
+    width: 100%;
+    background-color: rgba(22, 21, 21, 0.70);
   }
-  .nav-bar-list > li {
+  .nav-bar-list .nav-bar-link {
+    color: #ffffff;
     text-align: center;
+  }
+  .nav-bar-list #btn-resume:hover {
+    background-color: #000;
+    color: #ffffff;
+    box-shadow: 0 1px 6px 0 #ffffff
   }
   .header .btn-resume {
     border: none;
