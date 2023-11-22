@@ -1,5 +1,5 @@
-import message from "../../images/message_light.svg";
-import phone from "../../images/phone_light.svg";
+import message from "../../images/Message_light.svg";
+import phone from "../../images/Phone_light.svg";
 import ContactForm from "./ContactForm"
 
 const Contact = () => {
