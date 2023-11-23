@@ -90,8 +90,7 @@
   }
   .main-photo-box .profile-img {
     margin: 50px 0 !important;
-    width: fit-content !important;
-    height: 400px !important;
+    width: 400px !important;
   }
 }
 
@@ -114,8 +113,7 @@
   }
   .main-photo-box .profile-img {
     margin: 50px 0 !important;
-    width: fit-content !important;
-    height: 300px !important;
+    width: 300px !important;
   }
 }
 
