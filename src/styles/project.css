@@ -21,7 +21,45 @@
   }
 }
 
+@media screen and (max-width: 1200px) {
+  #project {
+    padding: 60px
+  }
+  .projects-container {
+    gap: 3rem
+  }
+  .project-card .project-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+  .project-card .project-name,
+  .project-card .project-description {
+    margin: 15px;
+    padding: 0
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #project {
+    padding: 50px
+  }
+  .project-card .project-name {
+    font-size: 20px;
+    margin-bottom: 13px;
+  }
+  .project-card .project-description {
+    font-size: 17px !important;
+    line-height: 25px;
+    margin-top: 13px;
+  }
+}
+
 @media screen and (max-width: 800px) {
+  #project {
+    padding: 70px
+  }
   .section {
     padding: 60px;
     padding-top: 50px;
@@ -40,11 +78,36 @@
     margin: 0;
     padding-bottom: 40px;
   }
+  .project-card .project-name {
+    font-size: 25px;
+    margin-bottom: 13px;
+  }
+  .project-card .project-description {
+    font-size: 19px !important;
+    line-height: 25px;
+    margin-top: 13px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .project-card .project-name {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .project-card .project-description {
+    font-size: 17px !important;
+    line-height: 25px;
+    margin: 5px;
+  }
+  .project-card .project-buttons > a {
+    padding: 10px 30px;
+    min-width: 100px;
+  }
 }
 
 @media screen and (max-width: 500px) {
   #project {
-    padding: 30px 50px;
+    padding: 30px 40px;
   }
   .projects-container {
     gap: 2.5rem
@@ -57,14 +120,18 @@
     justify-self: center;
     margin: 0;
   }
-}
-
-@media screen and (max-width: 1200px) {
-  .project-card .project-buttons {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    align-items: center;
+  .project-card .project-name {
+    font-size: 19px;
+    margin-bottom: 5px;
+  }
+  .project-card .project-description {
+    font-size: 16px !important;
+    line-height: 25px;
+    margin: 5px;
+  }
+  .project-card .project-buttons > a {
+    padding: 10px 10px;
+    min-width: 100px;
   }
 }
 
@@ -101,23 +168,12 @@
   place-items: center;
   font-size: 1.5rem;
   padding: 10px 30px;
+  min-width: 140px;
   max-width: 140px;
   height: 40px;
   border: 2px #000 solid;
   border-radius: 10px;
-  flex-grow: 1;
-  flex-shrink: 1;
-  /* flex-basis: 140px; */
 }
-
-/* @media screen and (min-width: 100px) {
-  .project-buttons {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    align-items: center;
-  }
-} */
 
 .project-buttons > a:hover {
   background-color: #000;
