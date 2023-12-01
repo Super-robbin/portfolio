@@ -35,7 +35,7 @@
 
 @media screen and (max-width: 500px) {
   .about-container {
-    font-size: 10px;
+    font-size: 12px;
     padding: 30px;
   }
   .about-container .above-section {
@@ -44,7 +44,7 @@
     line-height: 20px;
     letter-spacing: 12px;
   }
-  .about-section {
+  .about-container #about-p-container .about-section {
     line-height: 20px !important;
   }
   .about-container .stack-section {

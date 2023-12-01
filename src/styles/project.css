@@ -139,6 +139,7 @@
 }
 
 .project-card {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   height: auto;
