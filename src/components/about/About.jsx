@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div className="about-container" id="about">
       <p className="above-section" id="above-about">
-        <span className="dash">-</span>a bit about me
+        <span className="dash">—</span>a bit about me
       </p>
       <div id="about-p-container">
         <p className="about-section">
@@ -45,7 +45,7 @@ const About = () => {
       </div>
       <div className="stack-section">
       <p className="above-section" id="above-stack">
-        <span className="dash">-</span>tech stack
+        <span className="dash">—</span>tech stack
       </p>
       <div className="stack-container">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />

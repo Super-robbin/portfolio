@@ -9,7 +9,7 @@ const Info = () => {
       <main className="main">
         <div className="name-section">
           <p className="above-section">
-            <span className="dash">-</span>
+            <span className="dash">—</span>
             my name is
           </p>
           <h1 className="name-section-title">

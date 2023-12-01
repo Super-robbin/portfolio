@@ -135,6 +135,10 @@
   .project-card .project-buttons > a {
     padding: 10px 10px;
     min-width: 100px;
+    border: 1px #000 solid;
+  }
+  .projects-container .project-card {
+    border: 1px #000 solid;
   }
 }
 

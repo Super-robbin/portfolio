@@ -5,7 +5,7 @@ const Project = () => {
   return (
     <div className="section" id="project">
       <p className="above-section">
-        <span className="dash">-</span>
+        <span className="dash">—</span>
         projects
       </p>
       <h3 className="title-section">Featured Portfolios</h3>
