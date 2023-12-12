@@ -4,6 +4,7 @@ import makersBnb from "../images/MakersBnb-img.jpg";
 import weather from "../images/weather.jpg";
 import notesApp from "../images/notesApp.jpg";
 import shopManager from "../images/shopManager.jpg";
+import ticTacToe from "../images/ticTacToe.jpg";
 
 const cards = [
   {
@@ -40,13 +41,21 @@ const cards = [
   },
   {
     id: 5,
+    img: ticTacToe,
+    name: "Tic-Tac-Toe",
+    description: "A web app to play the iconic game",
+    site: "https://tic-tac-toe-glsy.onrender.com/",
+    github: "https://github.com/Super-robbin/tic_tac_toe",
+  },
+  {
+    id: 6,
     img: notesApp,
     name: "Notes App",
     description: "A web app to take notes, display and delete them",
     github: "https://github.com/Super-robbin/notes_app",
   },
   {
-    id: 6,
+    id: 7,
     img: shopManager,
     name: "Shop Manager",
     description: "A back-end shop manager project created with Python",
