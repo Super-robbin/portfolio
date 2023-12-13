@@ -44,7 +44,7 @@ const cards = [
     id: 5,
     img: investmentCalculator,
     name: "Investment Calculator",
-    description: "A web app to forecast return on investment",
+    description: "A web app to calculate return on investment",
     site: "https://investment-calculator-hrvr.onrender.com",
     github: "https://github.com/Super-robbin/investment_calculator",
   },
