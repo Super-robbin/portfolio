@@ -36,7 +36,7 @@ const cards = [
     id: 4,
     img: projectManagement,
     name: "Project Management App",
-    description: "A web app to manage projects and tasks, created using React and styled with Tailwind CSS ",
+    description: "A web app to manage projects and tasks, created using React and styled with Tailwind CSS",
     site: "https://project-management-app-2jrp.onrender.com/",
     github: "https://github.com/Super-robbin/project_management_app",
   },
