@@ -33,15 +33,15 @@ const cards = [
     description: "Group project web app of an AirBnB clone",
     github: "https://github.com/Super-robbin/MakersBnB",
   },
-  {
-    id: 4,
-    img: foodOrderApp,
-    name: "Food Order App",
-    description:
-      "A food order app where users can browse food items, update the shopping cart and finally be taken to a form to finalise the order.",
-    site: "https://food-order-app-81he.onrender.com/",
-    github: "https://github.com/Super-robbin/food_order_app",
-  },
+  // {
+  //   id: 4,
+  //   img: foodOrderApp,
+  //   name: "Food Order App",
+  //   description:
+  //     "A food order app where users can browse food items, update the shopping cart and finally be taken to a form to finalise the order.",
+  //   site: "https://food-order-app-81he.onrender.com/",
+  //   github: "https://github.com/Super-robbin/food_order_app",
+  // },
   {
     id: 5,
     img: projectManagement,
