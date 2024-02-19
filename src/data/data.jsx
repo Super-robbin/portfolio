@@ -6,6 +6,7 @@ import projectManagement from "../images/projectManagement.jpg";
 import shopManager from "../images/shopManager.jpg";
 import ticTacToe from "../images/ticTacToe.jpg";
 import investmentCalculator from "../images/investmentCalculator.jpg";
+import toDoApp from "../images/toDoApp.jpg";
 import foodOrderApp from "../images/foodOrderApp.jpg";
 
 const cards = [
@@ -77,6 +78,14 @@ const cards = [
   },
   {
     id: 9,
+    img: toDoApp,
+    name: "To Do App",
+    description: "A very basic to do app built using React and Typescript",
+    site: "https://to-do-app-tbwm.onrender.com/",
+    github: "https://github.com/Super-robbin/to_do_app/tree/main",
+  },
+  {
+    id: 10,
     img: shopManager,
     name: "Shop Manager",
     description: "A back-end shop manager project created with Python",
