@@ -8,6 +8,7 @@ import ticTacToe from "../images/ticTacToe.jpg";
 import investmentCalculator from "../images/investmentCalculator.jpg";
 import toDoApp from "../images/toDoApp.jpg";
 import foodOrderApp from "../images/foodOrderApp.jpg";
+import framerMotion from "../images/framerMotion.png";
 
 const cards = [
   {
@@ -86,6 +87,14 @@ const cards = [
   },
   {
     id: 10,
+    img: framerMotion,
+    name: "React Challenges",
+    description: "A Front End app styled with Framer Motion. Users can add a new challenge and then either mark it as completed or failed.",
+    site: "https://react-challenges-lulv.onrender.com",
+    github: "https://github.com/Super-robbin/react_challenges",
+  },
+  {
+    id: 11,
     img: shopManager,
     name: "Shop Manager",
     description: "A back-end shop manager project created with Python",
