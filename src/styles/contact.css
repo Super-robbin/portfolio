@@ -115,6 +115,7 @@
 
 .form-input:focus {
   outline: none;
+  box-shadow: 0 1px 6px 0 #20212447
 }
 
 #message {
