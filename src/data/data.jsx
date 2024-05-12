@@ -7,7 +7,8 @@ import shopManager from "../images/shopManager.jpg";
 import ticTacToe from "../images/ticTacToe.jpg";
 import investmentCalculator from "../images/investmentCalculator.jpg";
 import toDoApp from "../images/toDoApp.jpg";
-import foodOrderApp from "../images/foodOrderApp.jpg";
+// import foodOrderApp from "../images/foodOrderApp.jpg";
+
 import framerMotion from "../images/framerMotion.png";
 
 const cards = [
@@ -44,6 +45,15 @@ const cards = [
   //   site: "https://food-order-app-81he.onrender.com/",
   //   github: "https://github.com/Super-robbin/food_order_app",
   // },
+  {
+    id: 4,
+    img: foodOrderApp,
+    name: "Foodies App",
+    description:
+      "A full-stack application created with ReactJS and NextJS, using SQLite as database and S3 AWS for users' images storage. The app allows users to view and share meals, as well as being part of a foodies community.",
+    site: "https://foodies-app-aws.vercel.app/",
+    github: "https://github.com/Super-robbin/foodies_app_AWS",
+  },
   {
     id: 5,
     img: projectManagement,
@@ -89,7 +99,8 @@ const cards = [
     id: 10,
     img: framerMotion,
     name: "React Challenges",
-    description: "A Front End app styled with Framer Motion. Users can add a new challenge and then either mark it as completed or failed.",
+    description:
+      "A Front End app styled with Framer Motion. Users can add a new challenge and then either mark it as completed or failed.",
     site: "https://react-challenges-lulv.onrender.com",
     github: "https://github.com/Super-robbin/react_challenges",
   },
