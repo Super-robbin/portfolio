@@ -8,7 +8,7 @@ import ticTacToe from "../images/ticTacToe.jpg";
 import investmentCalculator from "../images/investmentCalculator.jpg";
 import toDoApp from "../images/toDoApp.jpg";
 // import foodOrderApp from "../images/foodOrderApp.jpg";
-
+import foodiesApp from "../images/foodiesApp.png";
 import framerMotion from "../images/framerMotion.png";
 
 const cards = [
@@ -47,10 +47,10 @@ const cards = [
   // },
   {
     id: 4,
-    img: foodOrderApp,
+    img: foodiesApp,
     name: "Foodies App",
     description:
-      "A full-stack application created with ReactJS and NextJS, using SQLite as database and S3 AWS for users' images storage. The app allows users to view and share meals, as well as being part of a foodies community.",
+      "A full-stack application created with NextJS. The app allows users to view and share meals, as well as being part of a foodies community.",
     site: "https://foodies-app-aws.vercel.app/",
     github: "https://github.com/Super-robbin/foodies_app_AWS",
   },
